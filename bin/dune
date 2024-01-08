@@ -1,0 +1,4 @@
+(executable
+ (public_name CA)
+ (name main)
+ (libraries graphics))
