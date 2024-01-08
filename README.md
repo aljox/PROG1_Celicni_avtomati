@@ -13,7 +13,7 @@ Potek programa je sledeč:
   * Prikaz mreže na zaslon
   * Posodobitev mreže
 
-Program se izvaja dokler ni zaznan poljubna aktivnost na tipkovnici. 
+Program se izvaja dokler ni zazna poljubna aktivnost na tipkovnici. 
 
 Sosede robnih celic obravnavam kot mrtve celice. Pri implementaciji sem uporabil samo '.ml' datoteke, ker moduli potrebujejo vso vsebino ostalih modulov. Dodatni komentarji o implementaciji so dostopni v izvirni kodi, kjer so opisani tudi vsi uporabljeni tipi.
 
