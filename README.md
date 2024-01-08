@@ -23,3 +23,10 @@ Za grafični prikaz potrebujemo [modul graphics](https://github.com/ocaml/graphi
 Uporabnik lahko spreminja nastavitve preko tekstovnega vmesnika. Njegova uporaba je opisana z ukazom `dune exec --"ime_projekta" -help`.
 
 ## Primeri
+| ![Game_Of_Life.png](./Img/Game_Of_Life.png) | 
+|:--:| 
+| Igra življenja -> `dune exec -- CA -regular` |
+| ![Moore_seed.png](./Img/Moore_seed.png) | 
+| Moorova okolica -> `dune exec -- CA -regular -seed_size 10 -live_count 1 2 0 0 0 0 0 0  -module Moore` |
+| ![Neumann_seed.png](./Img/Neumann_seed.png) | 
+| Neumannova okolica -> `dune exec -- CA -regular -seed_size 50 -live_count 1 4 0 0 0 0 0 0  -module Neumann` |
